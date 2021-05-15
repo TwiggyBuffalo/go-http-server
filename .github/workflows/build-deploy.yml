@@ -33,6 +33,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: TwiggyBuffalo/go-http-server:latest
+          tags: twiggybuffalo/go-http-server:latest
 
       
