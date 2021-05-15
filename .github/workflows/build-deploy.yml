@@ -32,7 +32,9 @@ jobs:
         run: go test -v ./...
         
       - name: Docker login
-        run: echo ${secrets.PAT} | docker login ghcr.io -u ${github.actor} --password-stdin
+        run: echo $PAT | docker login ghcr.io -u twiggybuffalo --password-stdin
+        env: 
+          PAT: ${{secret.PAT}}
         
       - name: Push to GitHub Packages
         uses: docker/build-push-action@v2
