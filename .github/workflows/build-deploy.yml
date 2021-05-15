@@ -41,4 +41,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: user/app:latest
+          tags: twiggybuffao/go-http-server:latest
