@@ -9,7 +9,7 @@ import (
 type myHandler struct{}
 
 func (*myHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
-	io.WriteString(w, "URL: "+r.URL.String())
+	io.WriteString(w, "Your URL: "+r.URL.String())
 }
 
 func Tmp(w http.ResponseWriter, r *http.Request) {
