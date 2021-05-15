@@ -34,7 +34,7 @@ jobs:
       - name: Docker login
         run: echo $PAT | docker login ghcr.io -u twiggybuffalo --password-stdin
         env: 
-          PAT: ${{secret.PAT}}
+          PAT: ${{secrets.PAT}}
         
       - name: Push to GitHub Packages
         uses: docker/build-push-action@v2
