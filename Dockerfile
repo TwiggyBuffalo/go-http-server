@@ -8,5 +8,5 @@ RUN go install -v ./...
 
 EXPOSE 8080
 
-CMD ["http-server"]
+CMD ["Main"]
 
