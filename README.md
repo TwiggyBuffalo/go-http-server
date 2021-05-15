@@ -1,7 +1,7 @@
 <br />
 <p align="center">
   <a href="https://golang.org/">
-    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fih1.redbubble.net%2Fimage.985192467.9322%2Fbg%2Cf8f8f8-flat%2C750x%2C075%2Cf-pad%2C750x1000%2Cf8f8f8.jpg&f=1&nofb=1" alt="Logo" width="280" height="300">
+    <img src="gopher.png" alt="Logo" width="280" height="300">
   </a>
 
   <h3 align="center">TwiggyBuffalo/go-http-server</h3>
