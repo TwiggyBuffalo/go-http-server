@@ -36,7 +36,8 @@ jobs:
         name: Build and Push Image
         uses: docker/build-push-action@v2
         with:
-          context: .
+          file: Dockerfile
+          context: ./src
           push: true
           tags: |
             twiggybuffalo/go-http-server:latest
